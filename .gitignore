@@ -1,6 +1,51 @@
-node_modules
-*.expo/
+# Dependencies
+node_modules/
+yarn-error.log
+.yarn/
+.pnp.*
+.yarnrc.yml
+
+# Expo
+.expo/
+.expo-shared/
+*.expo
+*.jks
+*.p8
+*.p12
+*.key
+*.mobileprovision
+*.orig.*
+web-build/
+web-report/
+
+# Build
 dist/
-.idea
+build/
+*.apk
+*.aab
+*.ipa
+
+# TypeScript
+*.tsbuildinfo
+
+# Environment
 .env
-*.vscode/
+.env.local
+.env.*.local
+
+# IDEs and Editors
+.vscode/
+.idea/
+*.suo
+*.ntvs*
+*.njsproj
+*.sln
+*.sw?
+
+# OS Artifacts
+.DS_Store
+Thumbs.db
+
+# Testing
+coverage/
+*.log
